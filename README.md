@@ -1,6 +1,6 @@
 # barrier-auto
 
-![BANNER](https://github.com/Patan98/barrier-auto/assets/159428129/e738690c-b9c1-4d82-8fbe-a02a33d79f1d)
+![BANNER](https://github.com/Patan98/barrier-auto/assets/159428129/3b3444ef-4524-41bf-9395-a8b04aa4f81a)
 
 ## Barrier automatic connection
 
