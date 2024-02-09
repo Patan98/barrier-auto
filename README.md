@@ -1,5 +1,7 @@
 # barrier-auto
 
+![BANNER](https://github.com/Patan98/barrier-auto/assets/159428129/4189ea2d-94ff-4b31-be68-f805052b9658)
+
 ## Barrier automatic connection
 
 Simple pure bash script to synchronize devices and automatically connect them to the server at boot. <br />
