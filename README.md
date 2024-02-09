@@ -6,7 +6,7 @@
 
 Simple pure bash script to synchronize devices and automatically connect them to the server at boot. <br />
 It is especially useful for those who often change networks and travel with multiple devices. <br />
-For example with a Linux tablet, in order to automatically use the mouse and keyboard between the two devices automatically. <br />
+For example with a Linux tablet, in order to use the same mouse and keyboard between the two devices automatically. <br />
 <br />
 ### Important
 Replace:
