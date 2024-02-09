@@ -11,6 +11,7 @@ For example with a Linux tablet, in order to use the same mouse and keyboard bet
 ### Important
 Replace:
 '~/MEGA' with your cloud folder <br />
+Obviously the script must run on the server and clients at the same time.
 <br />
 ```
 #!/bin/bash
