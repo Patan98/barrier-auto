@@ -7,21 +7,21 @@
 #██      ██    ██ ██  ██ ██ ██         ██    ██ ██    ██ ██  ██ ██      ██
 #██       ██████  ██   ████  ██████    ██    ██  ██████  ██   ████ ███████
 #############################################################################################################################################################################
-HELP() #MOSTRA IL MESSAGGIO DI AIUTO
+HELP()
 {
-    echo "Questo è un programma per cambiare in automatico la configurazione di barrier e connettere automaticamente al server IP"
-    echo "È necessario un cloud per sincronizzare il file tra i dispositivi"
+    echo "This is a program to automatically change the barrier configuration and automatically connect to the IP server"
+    echo "A cloud is required to sync the file between devices"
     echo
-    echo "Opzioni:"
-    echo "-h --help            Mostra questo messaggio di aiuto"
+    echo "Options:"
+    echo "-h --help            Show this help message"
     echo ""
-    echo "-s --server          Avvia il programma per il server"
+    echo "-s --server          Start the server program"
     echo ""
-    echo "-c --client          Avvia il programma per il client"
+    echo "-c --client          Start the client program"
     echo ""
 }
 
-SERVER() #SALVA L'IP DEL SERVER NEL CLOUD
+SERVER() #SAVE THE SERVER IP IN THE CLOUD
 {
     cd ~/.config/Debauchee
     IP="$(hostname -I | cut -f1 -d" ")"
@@ -38,7 +38,7 @@ SERVER() #SALVA L'IP DEL SERVER NEL CLOUD
     done
 }
 
-CLIENT() #LEGGE L'IP DEL SERVER DAL CLIENT
+CLIENT() #READS THE SERVER IP FROM THE CLOUD
 {
     cd ~/.config/Debauchee
     IP=$(cat ~/MEGA/barrierIp.txt)
@@ -82,12 +82,14 @@ then
         ;;
 
     *)
-        echo "Usa -h o --help per avere la lista delle opzioni valide e sapere cosa fa il programma"
+        echo "Use -h or --help to get the list of valid options and know what the program does"
         ;;
     esac
 
 elif [ -z "$1" ]
 then
-    echo "Usa -h o --help per avere la lista delle opzioni valide e sapere cosa fa il programma"
+    echo "Use -h or --help to get the list of valid options and know what the program does"
 fi
 #############################################################################################################################################################################
+
+
